@@ -14,9 +14,9 @@ body{
 }
 
 hr{
-	width:20%;
-	margin-top:5px;
-	margin-bottom:20px;
+	width:30%;
+	margin-top:15px;
+	margin-bottom:25px;
 }
 
 .clientslideshow{
@@ -56,7 +56,7 @@ hr{
 	margin:100px 20% 50px 20%;
 	font-family: 'Open Sans', 'Arial', 'sans-serif';
 	font-weight:lighter;
-	font-size:.9em;
+	font-size:1.2em;
 	text-align: justify;
 
 }
@@ -96,7 +96,6 @@ hr{
 	color:white;
 }
 
-.copyright a{
-	color: inherit; 
+a.copyright{
 	text-decoration: none;
 }
