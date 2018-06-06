@@ -3,7 +3,20 @@
 	<title>Ardent Capital LLC</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script type="text/javascript">
+	function clbk(){
 
+		var c = "@";
+		var a = "client.";
+		var m2 = "mailto:";
+		var b = "services";
+		var d = "ardentcapitalgroup.com"
+		var f = document.getElementById("emailShow");
+		f.href = m2+a+b+c+d;
+		f.innerHTML =  a+b+c+d;
+}
+	</script>
 </head>
 <body>
 	
@@ -22,7 +35,7 @@
 	<div class="content">
 		<div class="subtitle">Services</div><a name="services"\>
 			<hr>
-			<div>Ardent Capital is a private Registered Investment Advisor founded in 2017 in Austin, Texas. We provide comprehensive investment advice for institutional investors and individual clients. We specalize in 
+			<div>Ardent Capital is a private Registered Investment Advisor founded in 2017 in Austin, Texas. We provide comprehensive investment advice for individual clients. As a zero-sales, fee-only advisor, we deliver world-class actionable advice, not pitches for unessesary products. We specalize in...
 				<ul>
 					<li>Early Retirement Strategies</li>
 					<li>Portfolio Design</li>
@@ -35,14 +48,19 @@
 	<div class="content">
 		<div class="subtitle">Privacy</div><a name="privacy"\>
 			<hr>
-			<div>We refuse to sell or divulge any client information with any marketers or third-party services.</div>
+			<div>We refuse to divulge or sell any client information with marketers, soliticitors, or any third-party services.</div>
 			<div class="clientslideshow"></div>
 	</div>
 	<div class="content">
 		<div class="subtitle">Contact</div><a name="contact"\>
 			<hr>
-			<div>Contact us today to set up a complimentary consultation. To view our client advisor's email address, please click on the captcha.<br><br>I'm not a robot</div>
-	</div>
+			<div>Contact us today to set up a complimentary consultation. To view our client advisor's email address, please click on the captcha below.<br>
+			<br>
+			
+
+<div class="centerer"><form><div class="g-recaptcha" data-callback="clbk" data-sitekey="6Ld02A0UAAAAALq7MXgmT7mJIxlqu9ujA3itZOam"></div>
+			<br><a href="" id="emailShow"></a></form></div><br>
+	</div></div>
 	<div class="content">
 		<div class="subtitle">Legal</div><a name="legal"\>
 			<hr>
@@ -50,7 +68,7 @@
 	</div>
 	<div class="footer">
 		<span class="copyright">&copy2018 Ardent Capital LLC</span><br>
-		<a href="./Legal.pdf" class="copyright">Legal</a>
+		<a href="./Legal.pdf" class="copyright">Legal Information</a>
 
 	</div>
 </body>
